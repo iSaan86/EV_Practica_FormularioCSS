@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="formulario, html, css, practica">
+    <meta name="description" content="Formularios">
+    <meta name="author" content="Alexandra Ferrera Arenas">
+    <link rel="icon" type="image/x-icon" href="img/logo-giro.png">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title> PRACTICA DE FORMULARIOS </title>
+</head>
+
+<body>
+    <!-- ABRO FORMULARIO -->
+    <form method="get" action="" name="formulario1" id="formulario1">
+        <!--AGRUPACION GENERAL-->
+        <fieldset>
+            <legend class="datos">DESARROLLOS JEREZ WEB</legend>
+            <fieldset><legend class="datos2">Datos del diseñador</legend>
+                <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" alt="indique su nombre" size="30%" autofocus required minlength="2" maxlength="50">*<br>
+                <label for="apellidos">Apellidos:</label><input type="text" id="apellidos" name="apellidos" alt="indique sus apellidos" size="30%" required minlength="2" maxlength="50">*<br>
+                <label for="codigo">Código de empleado (diseñadores 1300 a 1400):</label><input type="number" id="codigo" name="codigo" alt="indique su código de empleado" required min="1300" max="1400">*<br>
+                <label for="email">Correo electrónico:</label><input type="email" id="email" name="email" alt="indique su email" size="30%" placeholder="ejemplo@ejemplo.es" required>*<br>
+                <label for="telefono">Teléfono:</label><input type="tel" id="telefono"  name="telefono" alt="indique su telefono" size="30%" placeholder="956 44 23 95"><br>
+            </fieldset>
+            <fieldset><legend class="datos2">Datos del diseño</legend>
+                <label for="url">URL de la página web:</label><input type="url" id="url" name="url" alt="indique la URL de la pagina web" size="30%" placeholder="Escribe la URL de tu página web"><br>
+                <label for="fecha">Fecha de publicación:</label><input type="date" name="fecha" id="fecha"><br>
+                <label for="servidor">Servidor de aplicaciones</label><input type="radio" id="apache" name="servidor" alt="verificar apache" value="Apache"><label for="hombre">Apache</label>
+                <input type="radio" id="websphere" name="servidor" alt="verificar websphere" value="Websphere"><label for="mujer">Websphere</label><br>
+                <label for="tiempo">Tiempo de desarrollo:</label><input type="time" name="tiempo" id="tiempo"><br>
+                <label for="lenguaje">Lenguaje de codificación:</label>
+                <select id="lenguaje" name="lenguaje" alt="Elija lenguaje de codificación"><br>
+                    <option value="html5">HTML5</option>
+                    <option value="xhtml">XHTML</option>
+                    <option value="html4.1" checked>HTML4.1</option>
+                    
+            </fieldset>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+
+
+
+
+</html>

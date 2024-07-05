@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Para todo el html */
+*{
+    padding: 5px;
+    margin:7px;
+}
+body{
+    padding-right: 15%;
+}
+fieldset{
+    border-color: #E3E3E3;
+}

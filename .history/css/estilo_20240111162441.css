@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* Para todo el html */
+*{
+    padding: 5%;
+    margin:5%;
+}

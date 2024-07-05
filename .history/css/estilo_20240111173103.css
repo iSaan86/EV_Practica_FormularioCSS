@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Para todo el html */
+*{
+    padding: 5px;
+    margin:8px;
+}
+body{
+    padding: 5px;
+}
